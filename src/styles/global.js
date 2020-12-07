@@ -6,6 +6,7 @@ export default createGlobalStyle`
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+    font-weight: 400;
   }
 
   body {
@@ -18,6 +19,10 @@ export default createGlobalStyle`
 
   body, input, button {
     font-family: 'Roboto', serif;
+  }
+
+  strong {
+    font-weight: 500;
   }
 `;
 

@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Header from "../components/Header";
 import { Section } from "../styles/global";
+import { FiPhone } from "react-icons/fi";
+import Contact from "../sections/Contact";
 
 export default function HomePage() {
   return (
@@ -92,29 +94,7 @@ export default function HomePage() {
             Cards
           </div>
         </Section>
-        <Section>
-          <div>
-            <h2>Fale conosco</h2>
-            <h3>
-              Consulte <strong>gratuitamente</strong> nossos
-              especialistas sobre seu projeto.
-            </h3>
-            <h4>
-              Ajudamos sua empresa a refletir seu verdadeiro eu por meio
-              de projetos inovadores.
-            </h4>
-            <div>
-              <form>
-                <input type="text" placeholder="Nome"/>
-                <input type="text" placeholder="Telefone (opcional)"/>
-                <input type="email" placeholder="Email"/>
-                <textarea cols="30" rows="10"></textarea>
-                <input type="button" value="Enviar"/>
-              </form>
-            </div>
-          </div>
-
-        </Section>
+        <Contact></Contact>
       </main>
 
       <footer >
