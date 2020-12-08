@@ -1,7 +1,7 @@
 import React, { useCallback, useState, useRef } from "react";
-import { Container, Content, Description, SectionTitle, Title } from "./styles";
+import { Container, Content } from "./styles";
+import { Description, SectionTitle, Title } from "../../styles/global";
 import { Form } from '@unform/web';
-import { FormHandles } from '@unform/core';
 import * as Yup from 'yup';
 
 import getValidationErrors from '../../utils/getValidationErrors';
@@ -56,7 +56,7 @@ const Contact = props => {
             <Input type="text" name="email" placeholder="Email" icon={FiMail}/>
             <TextArea name="description" placeholder="Mensagem" rows="7" ></TextArea>
 
-            <Button type="submit">Enviar</Button>
+            <Button type="submit" style={{width: "150px"}}>Enviar</Button>
           </Form>
         </div>
       </Content>
