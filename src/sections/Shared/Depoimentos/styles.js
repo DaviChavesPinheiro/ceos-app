@@ -23,6 +23,7 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
 
   h2 {
     font-size: 16px;
@@ -39,19 +40,4 @@ export const Content = styled.div`
     color: #0d0e5d;
   }
 
-`;
-
-export const CardsContainer = styled.div`
-  padding: 80px 0px;
-
-  display: flex;
-  justify-content: space-around;
-
-  div {
-    width: 520px;
-    height: 250px;
-    border-radius: 8px;
-    background-color: #f4f7fc;
-    margin: 10px
-  }
 `;

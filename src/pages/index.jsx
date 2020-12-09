@@ -6,7 +6,7 @@ import AboutUs from "../sections/Home/AboutUs";
 import Portifolio from "../sections/Home/Portfolio";
 import OurGoals from "../sections/Home/OurGoals";
 import OurTeam from "../sections/Home/OurTeam";
-import Depoimentos from "../sections/Home/Depoimentos";
+import Depoimentos from "../sections/Shared/Depoimentos";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
