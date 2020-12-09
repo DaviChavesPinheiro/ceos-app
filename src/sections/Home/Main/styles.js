@@ -8,10 +8,7 @@ export const MainTitle = styled.h1`
   margin-bottom: 35px;
 `
 
-export const Container = styled.div`
-  min-height: 100vh;
-  width: 100%;
-  position: relative;
+export const Container = styled(Section)`
 
   padding-top: 50px;
 

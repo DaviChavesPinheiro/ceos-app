@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from "../components/Header";
 import { Section } from "../styles/global";
 import Contact from "../sections/Contact";
+import Footer from "../components/Footer";
 
 export default function Projects() {
   return (
@@ -57,9 +58,7 @@ export default function Projects() {
         <Contact></Contact>
       </main>
 
-      <footer >
-        <p>Footer</p>
-      </footer>
+      <Footer></Footer>
     </div>
   )
 }

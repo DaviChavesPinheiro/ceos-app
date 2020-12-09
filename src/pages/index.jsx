@@ -8,6 +8,8 @@ import OurGoals from "../sections/Home/OurGoals";
 import OurTeam from "../sections/Home/OurTeam";
 import Depoimentos from "../sections/Home/Depoimentos";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
+
 
 export default function HomePage() {
   return (
@@ -36,9 +38,7 @@ export default function HomePage() {
         <Contact></Contact>
       </main>
 
-      <footer >
-        <p>Footer</p>
-      </footer>
+      <Footer></Footer>
     </div>
   )
 }
