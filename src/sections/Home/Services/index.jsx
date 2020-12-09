@@ -1,18 +1,20 @@
 import React from "react";
 import { Container, Content, CardsContainer } from "./styles";
-import { Description, SectionTitle, Title } from "../../../styles/global";
 
 const Services = props => {
 
   return (
     <Container>
       <Content>
-        <SectionTitle>Serviços</SectionTitle>
-        <Title style={{fontWeight: "bold"}}>Somos uma equipe de contadores de histórias, pensadores e solucionadores de problemas.</Title>
-        <Description>Ajudamos sua empresa a refletir seu verdadeiro eu por meio de projetos inovadores</Description>
+        <h2>Serviços</h2>
+        <h3>Somos uma equipe de contadores de histórias, pensadores e solucionadores de problemas.</h3>
+        <h4>Ajudamos sua empresa a refletir seu verdadeiro eu por meio de projetos inovadores</h4>
       </Content>
       <CardsContainer>
-        Cards
+        <div>Card 1</div>
+        <div>Card 2</div>
+        <div>Card 3</div>
+        <div>Card 4</div>
       </CardsContainer>
     </Container>
   )

@@ -7,12 +7,15 @@ const OurTeam = props => {
 
   return (
     <Container>
-     <Content>
-        <SectionTitle>Nosso time</SectionTitle>
-        <Title style={{fontWeight: "bold"}}>Uma equipe de solucionadores de problemas.</Title>
+      <Content>
+        <h2>Nosso time</h2>
+        <h3>Uma equipe de solucionadores de problemas.</h3>
       </Content>
       <CardsContainer>
-        <div>Cards</div>
+        <div>Card 1</div>
+        <div>Card 2</div>
+        <div>Card 3</div>
+        <div>Card 4</div>
       </CardsContainer>
       <Button style={{width: "150px", alignSelf: "center"}}>Ver mais</Button>
     </Container>

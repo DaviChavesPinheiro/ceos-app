@@ -5,13 +5,60 @@ export const Container = styled(Section)`
   display: flex;
   flex-direction: column;
   align-items: stretch;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background: #f4f7fc;
+    clip-path: polygon(100% 0, 45% 45%, 100% 100%);
+    z-index: -10;
+  }
 `
 export const Content = styled.div`
-  flex: 1;
-  padding: 10px 400px 10px 150px;
+  padding: 30px 400px 10px 150px;
+
+  h2 {
+    font-size: 16px;
+    color: #ff9000;
+    margin-bottom: 8px;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 35px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    color: #0d0e5d;
+  }
+
+  h4 {
+    font-size: 14px;
+    line-height: 25px;
+    color: #666;
+    margin-bottom: 45px;
+  }
+
 `;
 
 export const CardsContainer = styled.div`
-  flex: 20;
-  padding: 0px 150px;
+  padding: 40px 150px;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+
+
+  div {
+    width: 280px;
+    height: 330px;
+    border-radius: 8px;
+    background-color: #f4f7fc;
+    margin-bottom: 20px;
+  }
 `;

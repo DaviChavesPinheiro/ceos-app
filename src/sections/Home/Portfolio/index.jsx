@@ -7,12 +7,15 @@ const Portfolio = props => {
 
   return (
     <Container>
-     <Content>
-        <SectionTitle>Portfólio</SectionTitle>
-        <Title>Concluímos +2500 projetos de clientes incríveis.</Title>
+      <Content>
+        <h2>Portfólio</h2>
+        <h3>Concluímos +2500 projetos de clientes incríveis.</h3>
       </Content>
       <CardsContainer>
-        <div>Cards</div>
+        <div>Card 1</div>
+        <div>Card 2</div>
+        <div>Card 3</div>
+        <div>Card 4</div>
       </CardsContainer>
       <Button style={{width: "150px", alignSelf: "center"}}>Ver mais</Button>
     </Container>

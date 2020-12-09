@@ -1,6 +1,6 @@
-import React, { useCallback, useState, useRef } from "react";
-import { Container, Content } from "./styles";
-import { Description, SectionTitle, Title } from "../../styles/global";
+import React, { useCallback, useRef } from "react";
+import Image from "next/image";
+import { Container, Content, ImgContainer } from "./styles";
 import { Form } from '@unform/web';
 import * as Yup from 'yup';
 
@@ -39,16 +39,19 @@ const Contact = props => {
 
   return (
     <Container>
+      <ImgContainer>
+        <Image src="/image.svg" layout="fill" objectFit="contain"></Image>
+      </ImgContainer>
       <Content>
-        <SectionTitle>Fale conosco</SectionTitle>
-        <Title>
+        <h2>Fale conosco</h2>
+        <h3>
           Consulte <strong>gratuitamente</strong> nossos
           especialistas sobre seu projeto.
-        </Title>
-        <Description>
+        </h3>
+        <h4>
           Ajudamos sua empresa a refletir seu verdadeiro eu por meio
           de projetos inovadores.
-        </Description>
+        </h4>
         <div>
           <Form onSubmit={handleSubmit} ref={formRef}>
             <Input type="text" name="name" placeholder="Nome" icon={FiUser}/>
@@ -56,7 +59,7 @@ const Contact = props => {
             <Input type="text" name="email" placeholder="Email" icon={FiMail}/>
             <TextArea name="description" placeholder="Mensagem" rows="7" ></TextArea>
 
-            <Button type="submit" style={{width: "150px"}}>Enviar</Button>
+            <Button type="submit" style={{width: "150px", marginTop: "50px"}}>Enviar</Button>
           </Form>
         </div>
       </Content>

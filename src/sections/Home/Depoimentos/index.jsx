@@ -1,17 +1,18 @@
 import React from "react";
 import { Container, Content, CardsContainer } from "./styles";
-import { SectionTitle, Title } from "../../../styles/global";
 
 const OurTeam = props => {
 
   return (
     <Container>
-     <Content>
-        <SectionTitle>Depoimentos</SectionTitle>
-        <Title style={{fontWeight: "bold"}}>Citações especiais de nossos clientes sobre nós.</Title>
+      <Content>
+        <h2>Depoimentos</h2>
+        <h3>Citações especiais de nossos clientes sobre nós.</h3>
       </Content>
       <CardsContainer>
-        <div>Cards</div>
+        <div>Card 1</div>
+        <div>Card 2</div>
+        <div>Card 3</div>
       </CardsContainer>
     </Container>
   )

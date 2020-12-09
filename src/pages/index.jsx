@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { Section } from "../styles/global";
 import Contact from "../sections/Contact";
 import Main from "../sections/Home/Main";
 import Services from "../sections/Home/Services";
@@ -8,10 +7,7 @@ import Portifolio from "../sections/Home/Portfolio";
 import OurGoals from "../sections/Home/OurGoals";
 import OurTeam from "../sections/Home/OurTeam";
 import Depoimentos from "../sections/Home/Depoimentos";
-import { Description, SectionTitle, Title } from "../styles/global";
-
-import Button from "../components/Button";
-
+import Header from "../components/Header";
 
 export default function HomePage() {
   return (
@@ -21,6 +17,7 @@ export default function HomePage() {
       </Head>
 
       <main>
+        <Header></Header>
 
         <Main></Main>
 
