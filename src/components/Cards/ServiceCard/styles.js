@@ -16,7 +16,7 @@ export const Container = styled.div`
   transition: transform 0.5s ease;
 
   &:hover {
-    box-shadow: 4px 8px 29px 6px rgba(65,60,185,0.12);
+    box-shadow: 4px 8px 29px 6px rgba(65,60,185,0.32);
     transform: translate(0px, -10px);
     background-color: #2879fe;
 

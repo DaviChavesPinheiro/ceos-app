@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Content, CardsContainer } from "./styles";
-import { SectionTitle, Title } from "../../../styles/global";
 import Button from "../../../components/Button";
+import ProjectCard from "../../../components/Cards/ProjectCard";
 
 const Portfolio = props => {
 
@@ -12,10 +12,10 @@ const Portfolio = props => {
         <h3>Concluímos +2500 projetos de clientes incríveis.</h3>
       </Content>
       <CardsContainer>
-        <div>Card 1</div>
-        <div>Card 2</div>
-        <div>Card 3</div>
-        <div>Card 4</div>
+        <ProjectCard></ProjectCard>
+        <ProjectCard></ProjectCard>
+        <ProjectCard></ProjectCard>
+        <ProjectCard></ProjectCard>
       </CardsContainer>
       <Button style={{width: "150px", alignSelf: "center"}}>Ver mais</Button>
     </Container>
