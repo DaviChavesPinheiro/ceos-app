@@ -52,13 +52,4 @@ export const CardsContainer = styled.div`
   justify-content: space-around;
   flex-wrap: wrap;
 
-
-
-  div {
-    width: 280px;
-    height: 330px;
-    border-radius: 8px;
-    background-color: #f4f7fc;
-    margin-bottom: 20px;
-  }
 `;

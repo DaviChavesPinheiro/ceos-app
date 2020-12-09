@@ -38,7 +38,7 @@ const Contact = props => {
   }, [])
 
   return (
-    <Container>
+    <Container id="contact">
       <ImgContainer>
         <Image src="/image.svg" layout="fill" objectFit="contain"></Image>
       </ImgContainer>

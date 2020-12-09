@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Content, CardsContainer } from "./styles";
+import ServiceCard from "../../../components/Cards/ServiceCard";
 
 const Services = props => {
 
@@ -11,10 +12,10 @@ const Services = props => {
         <h4>Ajudamos sua empresa a refletir seu verdadeiro eu por meio de projetos inovadores</h4>
       </Content>
       <CardsContainer>
-        <div>Card 1</div>
-        <div>Card 2</div>
-        <div>Card 3</div>
-        <div>Card 4</div>
+        <ServiceCard>Card 1</ServiceCard>
+        <ServiceCard>Card 2</ServiceCard>
+        <ServiceCard>Card 3</ServiceCard>
+        <ServiceCard>Card 4</ServiceCard>
       </CardsContainer>
     </Container>
   )

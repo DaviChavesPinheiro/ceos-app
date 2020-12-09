@@ -13,6 +13,10 @@ export default createGlobalStyle`
     /* overflow-x: hidden; */
   }
 
+  html{
+    scroll-behavior:smooth
+  }
+
   button {
     cursor: pointer;
   }
