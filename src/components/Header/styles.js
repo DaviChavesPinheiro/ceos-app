@@ -21,6 +21,15 @@ export const Container = styled.header`
 
     li {
       margin-left: 25px;
+
+      a {
+        text-decoration: none;
+        color: #0d0e5d;
+
+        &:hover {
+          font-weight: bold;
+        }
+      }
     }
   }
 
