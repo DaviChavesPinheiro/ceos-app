@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Container, Content, Analytics, ImgContainer } from "./styles";
 
-const AboutUs = props => {
+const AboutUs = ({projectsOverview}) => {
 
   return (
     <Container>
@@ -19,15 +19,15 @@ const AboutUs = props => {
         </h4>
         <Analytics>
           <div>
-            <span>4500</span>
+            <span>{projectsOverview.projects}</span>
             <h2>Projetos feitos</h2>
           </div>
           <div>
-            <span>250+</span>
+            <span>{projectsOverview.clients}+</span>
             <h2>Clientes</h2>
           </div>
           <div>
-            <span>350</span>
+            <span>{projectsOverview.onGoingProjects}</span>
             <h2>Projetos em andamento</h2>
           </div>
         </Analytics>

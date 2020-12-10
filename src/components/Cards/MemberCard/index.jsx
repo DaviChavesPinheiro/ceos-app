@@ -4,16 +4,16 @@ import Image from "next/image";
 import { FiFacebook, FiInstagram, FiLinkedin, FiTwitter } from "react-icons/fi";
 import RoundButton from "../../../components/RoundButton";
 
-const MemberCard = (props) => {
+const MemberCard = ({imgUrl, name, situation}) => {
 
   return (
     <Container>
       <ImageContainer>
-          <Image src="/profile.svg" layout="fill"></Image>
+          <Image src={imgUrl || "/profile.svg"} layout="fill"></Image>
       </ImageContainer>
-      <h3>John Doe</h3>
+      <h3>{name}</h3>
       <h4>
-        Gerente de Projetos
+        {situation}
       </h4>
       <SocialMediaLinksContainer>
         <RoundButton icon={FiFacebook} color={"#2961fe"} fill={"#2961fe"}></RoundButton>

@@ -2,23 +2,20 @@ import React from "react";
 import { Container, About, ImageContainer, Info } from "./styles";
 import Image from "next/image";
 
-const DepoimentoCard = (props) => {
+const DepoimentoCard = ({depoimento, imgUrl, name, situation}) => {
 
   return (
     <Container>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+        {depoimento}
       </p>
       <About>
         <ImageContainer>
-          <Image src="/profile.svg" layout="fill"></Image>
+          <Image src={imgUrl || '/profile.svg'} layout="fill"></Image>
         </ImageContainer>
         <Info>
-          <h3>Steve Jobs</h3>
-          <h4>CEO da Microsoft</h4>
+          <h3>{name}</h3>
+          <h4>{situation}</h4>
         </Info>
       </About>
     </Container>

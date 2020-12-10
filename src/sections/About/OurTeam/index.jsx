@@ -3,7 +3,7 @@ import { Container, Content, CardsContainer } from "./styles";
 import Button from "../../../components/Button";
 import MemberCard from "../../../components/Cards/MemberCard";
 
-const OurTeam = props => {
+const OurTeam = ({members}) => {
 
   return (
     <Container>
@@ -12,22 +12,9 @@ const OurTeam = props => {
         <h3>Somos uma equipe de contadores de histórias, pensadores e solucionadores de problemas.</h3>
       </Content>
       <CardsContainer>
-        <MemberCard></MemberCard>
-        <MemberCard></MemberCard>
-        <MemberCard></MemberCard>
-        <MemberCard></MemberCard>
-        <MemberCard></MemberCard>
-        <MemberCard></MemberCard>
-        <MemberCard></MemberCard>
-        <MemberCard></MemberCard>
-        <MemberCard></MemberCard>
-        <MemberCard></MemberCard>
-        <MemberCard></MemberCard>
-        <MemberCard></MemberCard>
-        <MemberCard></MemberCard>
-        <MemberCard></MemberCard>
-        <MemberCard></MemberCard>
-        <MemberCard></MemberCard>
+        {members.map(member => (
+          <MemberCard imgUrl={member.imgUrl} name={member.name} situation={member.situation}></MemberCard>
+        ))}
       </CardsContainer>
       <Button style={{width: "150px", alignSelf: "center"}}>Ver mais</Button>
     </Container>

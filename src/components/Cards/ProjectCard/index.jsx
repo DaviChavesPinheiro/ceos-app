@@ -2,14 +2,14 @@ import React from "react";
 import { Container, ImageContainer } from "./styles";
 import Image from "next/image";
 
-const ProjectCard = (props) => {
+const ProjectCard = ({imgUrl, name}) => {
 
   return (
     <Container>
-      <Image src="https://www.t1site.com.br/wp-content/uploads/2018/07/SITE-CLINICA.jpg" layout="fill" objectFit="cover"></Image>
+      <Image src={imgUrl} layout="fill" objectFit="cover"></Image>
 
       <section>
-        <h3>Endo Clould</h3>
+        <h3>{name}</h3>
       </section>
     </Container>
   )
