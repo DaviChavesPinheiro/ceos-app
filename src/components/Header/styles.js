@@ -16,6 +16,7 @@ export const Container = styled.header`
   ul {
     display: flex;
     flex-direction: row;
+    align-items: center;
 
     list-style-type: none;
 
@@ -26,9 +27,21 @@ export const Container = styled.header`
         text-decoration: none;
         color: #0d0e5d;
 
+        &.active {
+          font-weight: bold;
+        }
+
         &:hover {
           font-weight: bold;
         }
+      }
+
+      &:last-child {
+        border: 2px solid #ff9000;
+        border-radius: 5px;
+
+        padding: 7px 23px;
+        margin-left: 35px;
       }
     }
   }
