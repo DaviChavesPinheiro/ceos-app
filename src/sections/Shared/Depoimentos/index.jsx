@@ -13,8 +13,8 @@ const OurTeam = ({depoimentos}) => {
         <h3>Citações especiais de nossos clientes sobre nós.</h3>
       </Content>
       <Flickity options={{initialIndex: Math.ceil(depoimentos.length / 2) - 1, wrapAround: true}}>
-        {depoimentos.map(depoimento => (
-          <DepoimentoCard {...depoimento}></DepoimentoCard>
+        {depoimentos.map((depoimento, index) => (
+          <DepoimentoCard key={index} {...depoimento}></DepoimentoCard>
         ))}
       </Flickity>
     </Container>

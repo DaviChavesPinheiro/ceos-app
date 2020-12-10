@@ -1,5 +1,6 @@
 import React, { useCallback, useRef } from "react";
 import Image from "next/image";
+import axios from "axios";
 import { Container, Content, ImgContainer } from "./styles";
 import { Form } from '@unform/web';
 import * as Yup from 'yup';
@@ -26,6 +27,8 @@ const Contact = props => {
       });
 
       await schema.validate(data, { abortEarly: false });
+
+      await axios.post('/api/sendMail', data);
 
       formRef.current.reset();
     } catch (error) {

@@ -14,8 +14,8 @@ const Projects = ({projects}) => {
         <h3>Concluímos <strong>+{getParsedProjectsAmount()} projetos</strong> de clientes incríveis.</h3>
       </Content>
       <CardsContainer>
-        {projects.map(project => (
-          <ProjectCard imgUrl={project.imgUrl} name={project.name}></ProjectCard>
+        {projects.map((project, index) => (
+          <ProjectCard key={index} imgUrl={project.imgUrl} name={project.name}></ProjectCard>
         ))}
       </CardsContainer>
     </Container>

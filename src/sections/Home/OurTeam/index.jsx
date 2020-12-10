@@ -12,8 +12,8 @@ const OurTeam = ({members}) => {
         <h3>Uma equipe de solucionadores de problemas.</h3>
       </Content>
       <CardsContainer>
-        {members.slice(0,4).map(member => (
-          <MemberCard imgUrl={member.imgUrl} name={member.name} situation={member.situation}></MemberCard>
+        {members.slice(0,4).map((member, index) => (
+          <MemberCard key={index} imgUrl={member.imgUrl} name={member.name} situation={member.situation}></MemberCard>
         ))}
       </CardsContainer>
       <Button style={{width: "150px", alignSelf: "center"}}>Ver mais</Button>

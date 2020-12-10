@@ -15,8 +15,8 @@ const Portfolio = ({projects}) => {
         <h3>Concluímos <strong>+{getParsedProjectsAmount()} projetos</strong> de clientes incríveis.</h3>
       </Content>
       <CardsContainer>
-        {projects.slice(0,4).map(project => (
-          <ProjectCard imgUrl={project.imgUrl} name={project.name}></ProjectCard>
+        {projects.slice(0,4).map((project, index) => (
+          <ProjectCard key={index} imgUrl={project.imgUrl} name={project.name}></ProjectCard>
         ))}
       </CardsContainer>
       <Button style={{width: "150px", alignSelf: "center"}}>Ver mais</Button>
