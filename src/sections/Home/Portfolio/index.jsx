@@ -9,7 +9,7 @@ const Portfolio = props => {
     <Container>
       <Content>
         <h2>Portfólio</h2>
-        <h3>Concluímos +2500 projetos de clientes incríveis.</h3>
+        <h3>Concluímos <strong>+2500 projetos</strong> de clientes incríveis.</h3>
       </Content>
       <CardsContainer>
         <ProjectCard></ProjectCard>

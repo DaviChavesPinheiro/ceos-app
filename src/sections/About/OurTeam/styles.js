@@ -12,12 +12,12 @@ export const Container = styled(Section)`
     content: '';
     position: absolute;
     top: 0px;
-    bottom: 60px;
+    bottom: 20px;
     left: 0;
-    width: 2000px;
+    width: 100%;
     min-width: 100%;
     background: #f4f7fc;
-    clip-path: polygon(0 0, 100% 14%, 100% 100%, 0 86%);
+    clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 97%);
     z-index: -10;
   }
 `
@@ -49,13 +49,4 @@ export const CardsContainer = styled.div`
   justify-content: space-around;
   flex-wrap: wrap;
 
-
-
-  div {
-    width: 280px;
-    height: 330px;
-    border-radius: 8px;
-    background-color: #fff;
-    margin-bottom: 20px;
-  }
 `;

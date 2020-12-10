@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Header from "../components/Header";
-import { Section } from "../styles/global";
 import Contact from "../sections/Contact";
 import Main from "../sections/About/Main";
 import OurTeam from "../sections/About/OurTeam";
