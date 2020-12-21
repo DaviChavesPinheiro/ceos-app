@@ -31,7 +31,7 @@ export default createGlobalStyle`
 `;
 
 export const Section = styled.section`
-  min-height: 100vh;
+  /* min-height: 100vh; */
   width: 100%;
   position: relative;
   /* border: 1px solid black; */

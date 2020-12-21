@@ -1,20 +1,19 @@
 import styled from "styled-components";
 import { Section } from "../../../styles/global";
 
-
 export const Container = styled(Section)`
-
-  padding-top: 50px;
+  /* padding-top: 50px; */
 
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 
   overflow-x: hidden;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 100px;
     bottom: 60px;
@@ -25,14 +24,14 @@ export const Container = styled(Section)`
     clip-path: polygon(0 0, 100% 14%, 100% 100%, 0 86%);
     z-index: -10;
   }
-`
+`;
 export const Content = styled.div`
-  margin-top: 150px;
+  /* margin-top: 150px; */
 
   width: 100%;
   max-width: 460px;
 
-  margin-right: 190px;
+  /* margin-right: 190px; */
 
   display: flex;
   flex-direction: column;
@@ -60,12 +59,11 @@ export const Content = styled.div`
     color: #666;
     margin-bottom: 45px;
   }
-
 `;
 
 export const ImgContainer = styled.div`
-  margin-top: 100px;
-  margin-left: 150px;
+  /* margin-top: 100px;
+  margin-left: 150px; */
   width: 500px;
   height: 500px;
 

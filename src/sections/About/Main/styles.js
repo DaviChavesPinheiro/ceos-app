@@ -6,19 +6,19 @@ export const MainTitle = styled.h1`
   font-size: 2.8em;
   letter-spacing: 1px;
   margin-bottom: 35px;
-`
+`;
 
 export const Container = styled(Section)`
-
   padding-top: 50px;
 
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -29,14 +29,14 @@ export const Container = styled(Section)`
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 89%);
     z-index: -10;
   }
-`
+`;
 export const Content = styled.div`
-  margin-top: 100px;
+  /* margin-top: 100px; */
 
   width: 100%;
   max-width: 460px;
 
-  margin-left: 190px;
+  /* margin-left: 140px; */
 
   display: flex;
   flex-direction: column;
@@ -64,12 +64,11 @@ export const Content = styled.div`
     color: #666;
     margin-bottom: 45px;
   }
-
 `;
 
 export const ImgContainer = styled.div`
-  margin-top: 100px;
-  margin-right: 50px;
+  /* margin-top: 100px;
+  margin-right: 50px; */
   width: 500px;
   height: 500px;
 

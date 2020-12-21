@@ -2,17 +2,24 @@ import styled from "styled-components";
 import { Section } from "../../styles/global";
 
 export const Container = styled(Section)`
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  align-items: center; */
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
 `;
 
 export const Content = styled.div`
   width: 100%;
   max-width: 460px;
-
-  margin-right: 170px;
+  margin-right: 50px;
+  /* margin-right: 170px; */
 
   h2 {
     font-size: 16px;
@@ -36,18 +43,26 @@ export const Content = styled.div`
     margin-bottom: 45px;
   }
 
-
   form {
     display: flex;
     flex-direction: column;
   }
-
 `;
 
 export const ImgContainer = styled.div`
   margin-right: 120px;
   width: 500px;
   height: 500px;
+  margin-left: 50px;
+  margin-right: 20px;
 
   position: relative;
 `;
+
+// display: flex;
+// justify-content: space-evenly;
+// flex-direction: row;
+// flex-direction: column;
+// margin-top: 60px;
+// margin-bottom: 60px;
+// flex-wrap: wrap;

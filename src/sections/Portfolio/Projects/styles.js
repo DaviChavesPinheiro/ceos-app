@@ -19,7 +19,21 @@ export const Container = styled(Section)`
   }
 `
 export const Content = styled.div`
-  padding: 50px 400px 10px 150px;
+  /* padding: 50px 400px 10px 150px; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center;
+   */
+  justify-content: flex-start;
+    margin-left:50px;
+    margin-top:40px;
+
+  div {
+    width: 49vw;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
 
   h2 {
     font-size: 16px;

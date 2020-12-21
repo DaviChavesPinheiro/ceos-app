@@ -7,7 +7,7 @@ export const Container = styled(Section)`
   align-items: stretch;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0px;
     right: 0;
@@ -17,9 +17,22 @@ export const Container = styled(Section)`
     clip-path: polygon(100% 0, 45% 45%, 100% 100%);
     z-index: -10;
   }
-`
+`;
 export const Content = styled.div`
-  padding: 30px 400px 10px 150px;
+  /* padding: 30px 400px 10px 150px; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  justify-content: flex-start;
+    margin-left:50px;
+
+  div {
+    width: 49vw;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    
+  }
 
   h2 {
     font-size: 16px;
@@ -42,7 +55,6 @@ export const Content = styled.div`
     color: #666;
     margin-bottom: 45px;
   }
-
 `;
 
 export const CardsContainer = styled.div`
@@ -51,5 +63,4 @@ export const CardsContainer = styled.div`
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-
 `;

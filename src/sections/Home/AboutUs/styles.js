@@ -3,9 +3,10 @@ import { Section } from "../../../styles/global";
 
 export const Container = styled(Section)`
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
+
 
   &::before {
     content: '';
@@ -25,9 +26,12 @@ export const Content = styled.div`
 
   width: 100%;
   max-width: 520px;
+  min-width: 500px;
+  margin-left: 20px;
+  margin-right: 20px;
 
-  margin-right: 190px;
-  margin-left: 140px;
+  /* margin-right: 190px;
+  margin-left: 140px; */
 
   h2 {
     font-size: 16px;
@@ -80,10 +84,11 @@ export const Analytics = styled.div`
 `;
 
 export const ImgContainer = styled.div`
-  margin-left: 120px;
+  /* margin-left: 120px; */
   width: 500px;
   height: 500px;
-
+  margin-right: 20px;
+  margin-left: 20px;
   position: relative;
 `;
 
