@@ -1,4 +1,4 @@
-import { Container } from "./styles";
+import { Container, ImageContainer } from "./styles";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -8,7 +8,9 @@ const Header = () => {
 
   return (
     <Container>
-      <Image src="/CEOS.svg" layout="intrinsic" height="30" width="100" />
+      <ImageContainer>
+        <Image src="/CEOS.svg" layout="fill" objectFit="contain" />
+      </ImageContainer>
 
       <ul>
         <li><Link href="/"><a className={router.pathname === "/" ? "active" : ""}>Início</a></Link></li>

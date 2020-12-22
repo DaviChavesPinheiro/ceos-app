@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from "../components/Head";
 import Contact from "../sections/Contact";
 import Main from "../sections/Home/Main";
 import Services from "../sections/Home/Services";
@@ -14,9 +14,7 @@ import Footer from "../components/Footer";
 export default function HomePage({projectsOverview, projects, members, depoimentos}) {
   return (
     <div>
-      <Head>
-        <title>CEOS - Empresa Júnior de Computação</title>
-      </Head>
+      <Head title="CEOS - Empresa Júnior de Computação"/>
 
       <main>
         <Header></Header>

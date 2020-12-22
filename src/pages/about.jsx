@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from "../components/Head";
 import Header from "../components/Header";
 import Contact from "../sections/Contact";
 import Main from "../sections/About/Main";
@@ -8,8 +8,7 @@ import Footer from "../components/Footer";
 export default function About({members}) {
   return (
     <div>
-      <Head>
-        <title>CEOS - Sobre nós</title>
+      <Head title="CEOS - Sobre nós">
       </Head>
       <Header></Header>
       <main>

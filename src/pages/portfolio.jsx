@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from "../components/Head";
 import Header from "../components/Header";
 import { Section } from "../styles/global";
 import Contact from "../sections/Contact";
@@ -10,8 +10,7 @@ import Footer from "../components/Footer";
 export default function Portfolio({ projects, depoimentos }) {
   return (
     <div>
-      <Head>
-        <title>CEOS - Projetos</title>
+      <Head title="CEOS - Projetos">
       </Head>
       <Header></Header>
       <main>
