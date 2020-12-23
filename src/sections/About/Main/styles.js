@@ -17,10 +17,12 @@ export const Container = styled(Section)`
   justify-content: space-evenly;
   align-items: center;
 
+  background: url("/shapes.svg") no-repeat;
+
   &::before {
     content: "";
     position: absolute;
-    top: 0;
+    top: -60px;
     left: 0;
     width: 100%;
     max-width: 800px;

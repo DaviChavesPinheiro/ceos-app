@@ -6,6 +6,10 @@ export const Container = styled(Section)`
   flex-direction: column;
   align-items: stretch;
 
+  background: url("/dash-line.svg") no-repeat;
+  background-size: contain;
+  background-position: -40% 0px;
+
   &::before {
     content: "";
     position: absolute;
@@ -31,7 +35,7 @@ export const Content = styled.div`
     min-width: 300px;
     display: flex;
     flex-direction: column;
-    
+
   }
 
   h2 {

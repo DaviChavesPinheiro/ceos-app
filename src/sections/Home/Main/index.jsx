@@ -13,7 +13,7 @@ const Main = props => {
         <Button>Inicie um projeto conosco</Button>
       </Content>
       <ImgContainer>
-        <Image src="/image.svg" layout="fill" objectFit="contain"></Image>
+        <Image src="/Image1.svg" layout="fill" objectFit="contain"></Image>
       </ImgContainer>
     </Container>
   )

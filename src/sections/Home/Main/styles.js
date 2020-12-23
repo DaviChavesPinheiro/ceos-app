@@ -26,7 +26,7 @@ export const Container = styled(Section)`
   &::before {
     content: "";
     position: absolute;
-    top: 0;
+    top: -60px;
     left: 0;
     width: 100%;
     max-width: 800px;
@@ -42,7 +42,7 @@ export const Content = styled.div`
   width: 100%;
   max-width: 460px;
   margin-left: 70px;
-  margin-right: 10px; 
+  margin-right: 10px;
   /* margin-left: 190px; */
 
   display: flex;

@@ -20,7 +20,7 @@ const OurGoals = props => {
         <Button style={{marginTop: "10px"}}>Inicie um projeto conosco</Button>
       </Content>
       <ImgContainer>
-        <Image src="/image.svg" layout="fill" objectFit="contain"></Image>
+        <Image src="/Image3.svg" layout="fill" objectFit="contain"></Image>
       </ImgContainer>
     </Container>
   )

@@ -12,7 +12,7 @@ const Main = props => {
         <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
       </Content>
       <ImgContainer>
-        <Image src="/image.svg" layout="fill" objectFit="contain"></Image>
+        <Image src="/Image5.png" layout="fill" objectFit="contain"></Image>
       </ImgContainer>
     </Container>
   )

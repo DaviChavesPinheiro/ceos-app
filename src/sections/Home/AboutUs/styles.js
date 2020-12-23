@@ -7,6 +7,9 @@ export const Container = styled(Section)`
   align-items: center;
   flex-wrap: wrap;
 
+  background: url("/dash-line.svg") no-repeat;
+  background-size: contain;
+  background-position: 120% 0px;
 
   &::before {
     content: '';

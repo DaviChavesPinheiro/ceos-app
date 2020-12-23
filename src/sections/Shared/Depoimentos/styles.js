@@ -6,6 +6,8 @@ export const Container = styled(Section)`
   flex-direction: column;
   align-items: stretch;
 
+  background: url("/shapes.svg") no-repeat;
+
   &::before {
     content: '';
     position: absolute;

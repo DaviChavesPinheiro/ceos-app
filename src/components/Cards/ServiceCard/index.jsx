@@ -2,12 +2,12 @@ import React from "react";
 import { Container, ImageContainer } from "./styles";
 import Image from "next/image";
 
-const ServiceCard = (props) => {
+const ServiceCard = ({iconSrc}) => {
 
   return (
     <Container>
       <ImageContainer>
-          <Image src="/profile.svg" layout="fill"></Image>
+          <Image src={`/${iconSrc}`} layout="fill"></Image>
       </ImageContainer>
       <h3>Desenvolvimento de Software</h3>
       <h4>

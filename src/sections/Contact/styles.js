@@ -13,6 +13,8 @@ export const Container = styled(Section)`
   align-items: center;
   flex-wrap: wrap;
   margin-top: 60px;
+
+  background: url("/shapes.svg") no-repeat;
 `;
 
 export const Content = styled.div`
@@ -20,6 +22,8 @@ export const Content = styled.div`
   max-width: 460px;
   margin-right: 50px;
   /* margin-right: 170px; */
+
+  background-color: white;
 
   h2 {
     font-size: 16px;
@@ -47,13 +51,12 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
   }
+
 `;
 
 export const ImgContainer = styled.div`
-  margin-right: 120px;
-  width: 500px;
-  height: 500px;
-  margin-left: 50px;
+  width: 700px;
+  height: 700px;
   margin-right: 20px;
 
   position: relative;

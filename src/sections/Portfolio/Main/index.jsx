@@ -7,7 +7,7 @@ const Main = props => {
   return (
     <Container>
       <ImgContainer>
-        <Image src="/image.svg" layout="fill" objectFit="contain"></Image>
+        <Image src="/Image1.svg" layout="fill" objectFit="contain"></Image>
       </ImgContainer>
       <Content>
         <h2>CEOS / Portfólio / Projeto</h2>

@@ -19,10 +19,10 @@ const Services = (props) => {
         </Content>
       </Content>
       <CardsContainer>
-        <ServiceCard>Card 1</ServiceCard>
-        <ServiceCard>Card 2</ServiceCard>
-        <ServiceCard>Card 3</ServiceCard>
-        <ServiceCard>Card 4</ServiceCard>
+        <ServiceCard iconSrc="icon-card.svg"></ServiceCard>
+        <ServiceCard iconSrc="icon-rocket.svg"></ServiceCard>
+        <ServiceCard iconSrc="icon-card.svg"></ServiceCard>
+        <ServiceCard iconSrc="icon-rocket.svg"></ServiceCard>
       </CardsContainer>
     </Container>
   );

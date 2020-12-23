@@ -7,7 +7,7 @@ const AboutUs = ({projectsOverview}) => {
   return (
     <Container>
       <ImgContainer>
-        <Image src="/image.svg" layout="fill" objectFit="contain"></Image>
+        <Image src="/Image2.png" layout="fill" objectFit="contain"></Image>
       </ImgContainer>
       <Content>
         <h2>Sobre nós</h2>

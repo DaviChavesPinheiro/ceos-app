@@ -11,7 +11,7 @@ const Footer = () => {
       <Content>
         <div>
           <div className="content">
-            <Image src="/CEOS.svg" layout="intrinsic" height="15" width="30"/>
+            <Image src="/CEOS.svg" layout="intrinsic" height="30" width="60"/>
             <p>CEOS - Transformando código em história</p>
           </div>
         </div>
