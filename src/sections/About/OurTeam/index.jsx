@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Content, CardsContainer } from "./styles";
-import Button from "../../../components/Button";
-import MemberCard from "../../../components/Cards/MemberCard";
+import Button from "../../../components/Forms/Button";
+import MemberCard from "../../../components/UIElements/Cards/MemberCard";
 
 const OurTeam = ({ members }) => {
   return (

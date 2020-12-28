@@ -1,7 +1,7 @@
 import React, { useCallback } from "react";
 import { Container, Content, CardsContainer } from "./styles";
-import Button from "../../../components/Button";
-import ProjectCard from "../../../components/Cards/ProjectCard";
+import Button from "../../../components/Forms/Button";
+import ProjectCard from "../../../components/UIElements/Cards/ProjectCard";
 
 const Portfolio = ({ projects }) => {
   const getParsedProjectsAmount = useCallback(() => {

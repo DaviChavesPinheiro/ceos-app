@@ -13,7 +13,11 @@ const ServiceCard = ({iconSrc}) => {
       <h4>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
       </h4>
-      <a href="#contact">Saiba Mais</a>
+      <a href="#contact">
+        Saiba Mais
+        <Image src="/arrow.svg" width="40px" height="20px"></Image>  
+      </a>
+
     </Container>
   )
 }

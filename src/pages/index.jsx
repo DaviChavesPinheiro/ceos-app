@@ -8,7 +8,7 @@ import OurGoals from "../sections/Home/OurGoals";
 import OurTeam from "../sections/Home/OurTeam";
 import Depoimentos from "../sections/Shared/Depoimentos";
 import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Footer from "../components/Head";
 
 
 export default function HomePage({projectsOverview, projects, members, depoimentos}) {

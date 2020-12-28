@@ -3,7 +3,9 @@ import Header from "../components/Header";
 import Contact from "../sections/Contact";
 import Main from "../sections/About/Main";
 import OurTeam from "../sections/About/OurTeam";
+import OurGoals from "../sections/Home/OurGoals"
 import Footer from "../components/Footer";
+import FullImage from "../components/UIElements/FullImage"
 
 export default function About({members}) {
   return (
@@ -13,7 +15,8 @@ export default function About({members}) {
       <Header></Header>
       <main>
         <Main></Main>
-
+        <FullImage imageURL="/group2x.png"/>
+        <OurGoals></OurGoals>
         <OurTeam members={members}></OurTeam>
 
         <Contact></Contact>

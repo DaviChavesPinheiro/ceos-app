@@ -7,9 +7,9 @@ import * as Yup from 'yup';
 
 import getValidationErrors from '../../utils/getValidationErrors';
 import { FiMail, FiUser, FiPhone } from 'react-icons/fi';
-import Input from "../../components/Input";
-import TextArea from "../../components/TextArea";
-import Button from "../../components/Button";
+import Input from "../../components/Forms/Input";
+import TextArea from "../../components/Forms/TextArea";
+import Button from "../../components/Forms/Button";
 
 const Contact = props => {
   const formRef = useRef(null);
@@ -62,7 +62,7 @@ const Contact = props => {
             <Input type="text" name="email" placeholder="Email" icon={FiMail}/>
             <TextArea name="description" placeholder="Mensagem" rows="7" ></TextArea>
 
-            <Button type="submit" style={{width: "150px", marginTop: "50px"}}>Enviar</Button>
+            <Button type="submit" hasArrow={false} style={{width: "150px", marginTop: "50px"}}>Enviar</Button>
           </Form>
         </div>
       </Content>

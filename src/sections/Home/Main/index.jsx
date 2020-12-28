@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Content, ImgContainer } from "./styles";
 import Image from "next/image";
-import Button from "../../../components/Button";
+import Button from "../../../components/Forms/Button";
 
 const Main = props => {
 

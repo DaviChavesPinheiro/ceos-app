@@ -45,10 +45,19 @@ export const Container = styled.header`
     }
   }
 
+  @media only screen and (max-width: 900px){
+    ul{
+      display:none;
+    }
+    padding: 0 20px;
+  }
+
 `
 
 export const ImageContainer = styled.div`
   position: relative;
   height: 100%;
   width: 150px;
+
+  
 `

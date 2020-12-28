@@ -1,7 +1,7 @@
 import { Container, Content, CopyRightContainer } from "./styles";
 import Link from "next/link";
 import Image from "next/image";
-import RoundButton from "../RoundButton";
+import RoundButton from "../../components/Forms/RoundButton";
 import { FiFacebook, FiInstagram, FiLinkedin, FiTwitter } from "react-icons/fi";
 
 const Footer = () => {

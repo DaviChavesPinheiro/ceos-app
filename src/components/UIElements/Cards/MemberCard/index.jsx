@@ -2,7 +2,7 @@ import React from "react";
 import { Container, ImageContainer, SocialMediaLinksContainer } from "./styles";
 import Image from "next/image";
 import { FiFacebook, FiInstagram, FiLinkedin, FiTwitter } from "react-icons/fi";
-import RoundButton from "../../../components/RoundButton";
+import RoundButton from "../../../Forms/RoundButton";
 
 const MemberCard = ({imgUrl, name, situation}) => {
 

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Container, Content, ImgContainer } from "./styles";
 
-import Button from "../../../components/Button";
+import Button from "../../../components/Forms/Button";
 
 const OurGoals = props => {
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Content, CardsContainer } from "./styles";
-import ServiceCard from "../../../components/Cards/ServiceCard";
+import ServiceCard from "../../../components/UIElements/Cards/ServiceCard";
 
 const Services = (props) => {
   return (

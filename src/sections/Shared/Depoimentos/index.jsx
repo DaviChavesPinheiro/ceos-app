@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Content } from "./styles";
-import DepoimentoCard from "../../../components/Cards/DepoimentoCard";
+import DepoimentoCard from "../../../components/UIElements/Cards/DepoimentoCard";
 import Flickity from "react-flickity-component";
 import "flickity/css/flickity.css";
 

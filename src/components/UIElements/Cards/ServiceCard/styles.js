@@ -41,9 +41,14 @@ export const Container = styled.div`
   }
 
   a {
+    width:150px;
     font-size: 16px;
     color: #ff9000;
     text-decoration: none;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items:center;
   }
 
 `

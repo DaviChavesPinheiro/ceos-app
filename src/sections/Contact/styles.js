@@ -8,7 +8,7 @@ export const Container = styled(Section)`
   align-items: center; */
 
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
@@ -57,7 +57,7 @@ export const Content = styled.div`
 export const ImgContainer = styled.div`
   width: 700px;
   height: 700px;
-  margin-right: 20px;
+  margin-right: 40px;
 
   position: relative;
 `;
