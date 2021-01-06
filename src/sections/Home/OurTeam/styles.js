@@ -9,7 +9,7 @@ export const Container = styled(Section)`
   overflow-x: hidden;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0px;
     bottom: 60px;
@@ -20,7 +20,7 @@ export const Container = styled(Section)`
     clip-path: polygon(0 0, 100% 14%, 100% 100%, 0 86%);
     z-index: -10;
   }
-`
+`;
 export const Content = styled.div`
   /* padding: 30px 400px 10px 150px; */
 
@@ -33,6 +33,10 @@ export const Content = styled.div`
     min-width: 300px;
     display: flex;
     flex-direction: column;
+
+    @media only screen and (max-width: 900px) {
+      width: 62vw;
+    }
   }
 
   h2 {
@@ -48,16 +52,18 @@ export const Content = styled.div`
     letter-spacing: 1px;
     margin-bottom: 15px;
     color: #0d0e5d;
+
+    @media only screen and (max-width: 900px) {
+      font-size: 49px;
+      line-height: 51px;
+    }
   }
-
-
 `;
 
 export const CardsContainer = styled.div`
-  padding: 40px 150px;
+  padding: 40px 119px;
 
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-
 `;

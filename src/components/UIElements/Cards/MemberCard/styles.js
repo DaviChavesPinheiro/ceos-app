@@ -10,7 +10,7 @@ export const Container = styled.div`
   border-radius: 8px;
   background-color: #fff;
 
-  margin: 10px;
+  margin: 8px;
   padding: 40px 40px 50px 40px;
 
   h3 {

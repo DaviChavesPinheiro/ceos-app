@@ -1,6 +1,6 @@
 import React, { useCallback } from "react";
 import { Container, Content, CardsContainer } from "./styles";
-import ProjectCard from "../../../components/Cards/ProjectCard";
+import ProjectCard from "../../../components/UIElements/Cards/ProjectCard";
 
 const Projects = ({ projects }) => {
   const getParsedProjectsAmount = useCallback(() => {

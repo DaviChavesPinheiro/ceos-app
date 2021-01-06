@@ -9,7 +9,7 @@ const OurTeam = ({ members }) => {
       <Content>
         <Content>
           <h2>Nosso time</h2>
-          <h3>Uma equipe de solucionadores de problemas.</h3>
+          <h3>Somos uma pequena equipe de contadores de historias, pensadores e de solucionadores de problemas.</h3>
         </Content>
       </Content>
       <CardsContainer>

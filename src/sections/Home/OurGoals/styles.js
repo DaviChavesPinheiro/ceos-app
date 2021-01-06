@@ -2,15 +2,15 @@ import styled from "styled-components";
 import { Section } from "../../../styles/global";
 
 export const Container = styled(Section)`
-  margin-top:50px;
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: -100px;
@@ -20,8 +20,7 @@ export const Container = styled(Section)`
     clip-path: circle(50% at 50% 50%);
     z-index: -10;
   }
-
-`
+`;
 export const Content = styled.div`
   flex: 1;
 
@@ -53,6 +52,14 @@ export const Content = styled.div`
     margin-bottom: 45px;
   }
 
+
+  @media only screen and (max-width: 900px) {
+    button {
+      width: 100%;
+      font-size: 1.5rem;
+      height: 60px;
+    }
+  }
 `;
 
 export const ImgContainer = styled.div`
@@ -61,7 +68,6 @@ export const ImgContainer = styled.div`
   height: 500px;
   margin-right: 20px;
   margin-left: 20px;
-
 
   position: relative;
 `;

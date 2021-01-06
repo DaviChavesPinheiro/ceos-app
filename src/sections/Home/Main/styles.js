@@ -49,6 +49,17 @@ export const Content = styled.div`
   flex-direction: column;
   justify-content: space-between;
 
+  @media only screen and (max-width: 900px) {
+    margin-left: 0px;
+    margin-right: 0px;
+
+    button {
+      width: 100%;
+      font-size: 1.5rem;
+      height: 60px;
+    }
+  }
+
   h1 {
     font-weight: 600;
     font-size: 3.2em;

@@ -29,6 +29,19 @@ export const Content = styled.div`
     margin-right:20px;
   }
 
+  @media only screen and (max-width: 900px) {
+    flex-direction: column;
+    padding-left:40px;
+
+    div{
+      padding-top:20px;
+    }
+
+    div:nth-child(1){
+      margin-right:100px;
+    }
+  }
+
   /* div:nth-child(1) {
     flex: 2;
     .content {

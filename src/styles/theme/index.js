@@ -2,18 +2,26 @@ const styled = require('styled-components');
 
 const MainTheme = {
     colors:{
-        primary: '#eee',
-        secondary: '#eee',
-        button: '#fff',
-        h2: '#555',
-        h4: '#444'
+        primeira: '#FFFFFF',
+        segunda: '#FF9100',
+        terceira: '#2979FF',
+        quarta: '#2961FF',
+        quinta: '#21262C',
+        sexta: '#0E0E5E',
     },
     paddings:{
+        sections: {
+
+        },
         bigger: '12px',
         medium: '5px',
         smaller: '2px'
     },
     margins:{
+        sections: {
+            containerBottomH3: '15px',
+            containerBottomH2: '8px', 
+        },
         bigger: '12px',
         medium: '5px',
         smaller: '2px'
@@ -23,7 +31,11 @@ const MainTheme = {
     },
     fonts:{
         size: {
-            bigger: '40px',
+            sections:{
+                containerH2: '16px',
+                containerH3: '30px',
+                containerH4: '14px',
+            },
             medium: '20px',
             smaller: '10px',
         },

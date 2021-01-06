@@ -50,8 +50,16 @@ export const Content = styled.div`
   form {
     display: flex;
     flex-direction: column;
+
   }
 
+  @media only screen and (max-width: 900px) {
+      button {
+        /* Fix this later!!! */
+        width: 100% !important;
+        margin-bottom:30px;
+      }
+    }
 `;
 
 export const ImgContainer = styled.div`

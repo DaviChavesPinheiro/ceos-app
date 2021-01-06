@@ -62,7 +62,7 @@ export const Content = styled.div`
 `;
 
 export const CardsContainer = styled.div`
-  padding: 40px 150px;
+  padding: 40px 119px;
 
   display: flex;
   justify-content: space-around;

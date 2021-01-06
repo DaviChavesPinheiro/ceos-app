@@ -11,7 +11,7 @@ export const Container = styled.div`
   border-radius: 8px;
   background-color: #f4f7fc;
 
-  margin: 10px;
+  margin: 8px;
   padding: 40px 40px 30px 40px;
   transition: transform 0.5s ease;
 
