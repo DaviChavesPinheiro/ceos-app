@@ -38,7 +38,7 @@ export const Content = styled.div`
   width: 100%;
   max-width: 460px;
 
-  /* margin-left: 140px; */
+  margin-left: 20px;
 
   display: flex;
   flex-direction: column;

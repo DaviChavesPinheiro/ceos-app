@@ -44,7 +44,8 @@ const MainTheme = {
         }
     }
 
-    
 }
 
+
+module.exports = MainTheme
 

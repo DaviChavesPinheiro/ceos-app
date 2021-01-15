@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
+  min-width: 550px;
   width: 650px;
   height: 290px;
   border-radius: 8px;
@@ -12,6 +12,11 @@ export const Container = styled.div`
   margin: 40px 20px;
   padding: 60px 40px 30px 40px;
   box-shadow: 4px 8px 29px 6px rgba(65,60,185,0.12);
+
+  @media only screen and (max-width: 900px) {
+    width:550px;
+    height: 320px;
+  }
 
   p {
     font-size: 14px;
